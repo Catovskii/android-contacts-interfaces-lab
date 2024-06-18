@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements OnDebounceListene
     }
 
     public void bindSearch() {
-        final Debouncer debouncer = new Debouncer(OnDebounceListener listener);
+        final Debouncer debouncer = new Debouncer(this);
         binding.searchLayout.searchText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
