@@ -1,5 +1,5 @@
 package ru.yandex.practicum.contacts.utils.android;
 
-interface OnDebounceListener {
+public interface OnDebounceListener {
     void onDebounce();
 }
